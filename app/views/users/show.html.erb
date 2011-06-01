@@ -1,11 +1,11 @@
-<h1>
     <section id = 'main'>
+    <h1>
         <%= gravatar_for @user, :size => 100 %>
         <%= @user.name %>
+    </h1>
     </section>
     <aside id = 'sidebar' class = 'round'>
     <mark>Name</mark>: <%= @user.name %></br>
     <mark>URL</mark>: <%= link_to user_path(@user), @user %>
     
     </aside>
-</h1>
