@@ -111,3 +111,28 @@ footer nav {
   float: none;
 }
 
+
+/* User page styling */
+section#main
+{
+  vertical-align: middle;
+  display: table-cell;
+  width: 620px;
+  margin-right: 20px;
+}
+
+aside#sidebar
+{
+  padding: 10px;
+  font-size: 17px;
+  vertical-align: top;
+  background-color: #ffc;
+  display: table-cell;
+  width: 300px;
+}
+
+aside#sidebar mark
+{
+  background-color: transparent;
+  font-weight: bold;
+}
